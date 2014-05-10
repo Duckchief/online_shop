@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
@@ -51,3 +51,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'bootstrap-sass'
+
+gem 'rails_12factor'
