@@ -1,4 +1,4 @@
-<h1>Store</h1>
+<%= link_to("Go to Homepage", root_path) %>
 
 <table class = "table table-striped">
   <thead>
@@ -18,7 +18,7 @@
         <td><%= product.description %></td>
         <td><%= number_to_currency(product.price, precision: 0) %></td>
         <td><%= product.serial_number %></td>
-        <td><%= product.created_at %></td>
+        <td><%= distance_of_time_in_words_to_now(product.created_at) %></td>
       </tr>
 
   <% end %>
