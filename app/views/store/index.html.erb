@@ -14,7 +14,7 @@
             <tr>
               <td><%= product.title %></td>
               <td><%= product.description %></td>
-              <td><%= product.price %></td>
+              <td><%= number_to_currency(product.price) %></td>
             </tr>
 
         <% end %>
